@@ -1,0 +1,26 @@
+{
+  "compilerOptions": {
+    "allowJs": false,
+    "allowSyntheticDefaultImports": true,
+    "experimentalDecorators": true,
+    "jsx": "react-native",
+    "module": "es2015",
+    "moduleResolution": "node",
+    "noImplicitAny": false,
+    "noImplicitReturns": true,
+    "noImplicitThis": true,
+    "noUnusedLocals": true,
+    "resolveJsonModule": true,
+    "sourceMap": true,
+    "target": "esnext",
+    "lib": ["esnext"],
+    "skipLibCheck": true,
+    "baseUrl": "./app",
+    "paths": {
+      "@app/*": ["./*"],
+      "@components": ["./components"]
+    }
+  },
+  "exclude": ["node_modules"],
+  "include": ["index.js", "app", "test", "storybook"]
+}

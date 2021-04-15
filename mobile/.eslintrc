@@ -1,0 +1,105 @@
+{
+  "env": {
+    "es6": true,
+    "node": true
+  },
+  "extends": [
+    "airbnb-typescript",
+    "airbnb/hooks",
+    "eslint-config-prettier",
+    "eslint:recommended",
+    "prettier",
+    "plugin:prettier/recommended",
+    "plugin:@typescript-eslint/recommended-requiring-type-checking",
+    "plugin:@typescript-eslint/recommended",
+    "plugin:react-native/all",
+    "plugin:react-hooks/recommended",
+    "plugin:sonarjs/recommended"
+  ],
+  "parser": "@typescript-eslint/parser",
+  "parserOptions": {
+    "ecmaFeatures": {
+      "jsx": true
+    },
+    "ecmaVersion": 2018,
+    "sourceType": "module",
+    "project": "./tsconfig.json"
+  },
+  "plugins": ["prettier", "jsx-a11y", "@typescript-eslint", "sonarjs"],
+  "rules": {
+    "prettier/prettier": "error",
+    "curly": ["error", "all"],
+    "no-console": 2,
+    "no-unused-vars": 1,
+    "@typescript-eslint/semi": [2, "never"],
+    "@typescript-eslint/no-empty-function": ["error"],
+    "@typescript-eslint/no-explicit-any": [2],
+    "@typescript-eslint/no-unsafe-member-access": [0],
+    "@typescript-eslint/no-var-requires": [0],
+    "@typescript-eslint/no-unsafe-assignment": [0],
+    "@typescript-eslint/no-unsafe-call": [0],
+    "@typescript-eslint/no-unsafe-return": [0],
+    "@typescript-eslint/explicit-function-return-type": [
+      1,
+      { "allowExpressions": true }
+    ],
+    "sonarjs/cognitive-complexity": ["error", 17],
+    "@typescript-eslint/no-unused-vars": [1],
+    "jsx-a11y/accessible-emoji": "off",
+    "react/jsx-filename-extension": [1, { "extensions": [".ts", ".tsx"] }],
+    "react/jsx-props-no-spreading": [0],
+    "react/destructuring-assignment": 0,
+    "react-native/no-raw-text": 0,
+    "@typescript-eslint/rule-name": "off",
+    "no-use-before-define": "off",
+    "import/no-extraneous-dependencies": "off",
+    "global-require": 0,
+    "import/no-cycle": 0,
+    "import/prefer-default-export": 0,
+    "no-duplicate-imports": 0,
+    "import/extensions": [
+      "off",
+      "ignorePackages",
+      {
+        "js": "never",
+        "jsx": "never",
+        "ts": "never",
+        "tsx": "never"
+      }
+    ]
+  },
+  "overrides": [
+    {
+      "files": ["app/**/*"],
+      "rules": {
+        "no-restricted-imports": [
+          "error",
+          {
+            "patterns": ["palette"]
+          }
+        ]
+      }
+    }
+  ],
+  "settings": {
+    "import/extensions": [".js", ".jsx", ".ts", ".tsx"],
+    "import/parsers": {
+      "@typescript-eslint/parser": [".js", ".ts", ".tsx"]
+    }
+  },
+  "globals": {
+    "__DEV__": false,
+    "jasmine": false,
+    "beforeAll": false,
+    "afterAll": false,
+    "beforeEach": false,
+    "afterEach": false,
+    "test": false,
+    "expect": false,
+    "describe": false,
+    "jest": false,
+    "it": false,
+    "Atomics": "readonly",
+    "SharedArrayBuffer": "readonly"
+  }
+}
