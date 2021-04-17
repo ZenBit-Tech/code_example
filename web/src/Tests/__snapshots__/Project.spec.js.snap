@@ -1,0 +1,42 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Project block Project 1`] = `
+<div
+  className="sc-bdfBwQ lldqtx"
+>
+  <div
+    className="sc-gsTCUz dgdUNE"
+  />
+  <div
+    className="sc-dlfnbm FPsoe"
+  >
+    <div
+      className="sc-hKgILt jsOJFj"
+    >
+      <h3
+        className="sc-jSgupP capTFj"
+      >
+        ToolKit
+      </h3>
+      <p
+        className="sc-gKsewC frvdQs"
+      >
+        2 hours ago
+      </p>
+    </div>
+    <div
+      className="sc-eCssSg dmeamK"
+    >
+      <div
+        className="sc-iBPRYJ lijGoy"
+      />
+      <div
+        className="sc-iBPRYJ lijGoy"
+      />
+      <div
+        className="sc-iBPRYJ lijGoy"
+      />
+    </div>
+  </div>
+</div>
+`;

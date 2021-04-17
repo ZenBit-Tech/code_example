@@ -1,0 +1,21 @@
+.ant-layout-header {
+  height: 78px !important;
+  background: #ffffff !important;
+  border: 1px solid #e9eff4 !important;
+  box-sizing: border-box !important;
+  display: flex !important;
+  justify-content: space-between;
+  padding: 0px 10px !important;
+}
+
+.iconNav {
+  margin-left: 20px;
+  height: 18px;
+  display: flex;
+}
+.iconNav svg {
+  fill: #666666;
+}
+.selectedIcon svg {
+  fill: red;
+}

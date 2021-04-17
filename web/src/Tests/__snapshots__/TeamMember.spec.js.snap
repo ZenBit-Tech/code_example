@@ -1,0 +1,25 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Team member block Team member 1`] = `
+<div
+  className="sc-bdfBwQ chNKQk"
+>
+  <div
+    className="sc-gsTCUz ywWHk"
+  >
+    <div
+      className="sc-dlfnbm hLltOv"
+    />
+    <div
+      className="sc-hKgILt fqfsaa"
+    >
+      Alexander Morozov
+    </div>
+  </div>
+  <div
+    className="sc-eCssSg buEuwN"
+  >
+    Manager
+  </div>
+</div>
+`;

@@ -1,0 +1,10 @@
+{
+  "projects": {
+    "intro": "Hello",
+    "viewAll": "View all projects",
+    "lastProjects": "Last projects"
+  },
+  "team": {
+    "myTeam": "My team"
+  }
+}

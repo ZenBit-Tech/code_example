@@ -1,0 +1,70 @@
+@font-face {
+  font-family: 'Roboto';
+  src: local('Roboto'),
+    url('Assets/fonts/Roboto/Roboto-Regular.ttf') format('truetype');
+  font-weight: normal;
+}
+body {
+  margin: 0;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin: 0;
+  padding: 0;
+}
+
+.modal-participants .ant-modal-content .ant-modal-body {
+  overflow: scroll;
+  max-height: 450px;
+}
+.modal-participants .ant-modal-content .ant-modal-header {
+  border-bottom: 1px solid #e9eff4;
+}
+.modal-participants .ant-modal-content .ant-modal-footer button {
+  display: none;
+}
+
+.modal-participants .ant-modal-content {
+  background: #ffffff;
+  box-shadow: 0px 4px 30px rgba(50, 60, 71, 0.14);
+  border-radius: 10px;
+}
+
+.modal-participants .ant-modal-content .ant-modal-header .ant-modal-title {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 21px;
+  display: flex;
+  align-items: center;
+  color: #000000;
+}
+
+.modal-participants
+  .ant-modal-content
+  .ant-modal-close
+  .ant-modal-close-x
+  .ant-modal-close-icon {
+  color: #ee0000;
+}
+.modal-participants
+  .ant-modal-content
+  .ant-modal-close
+  .ant-modal-close-x
+  .ant-modal-close-icon:hover {
+  color: gray;
+}
